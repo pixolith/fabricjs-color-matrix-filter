@@ -23,4 +23,6 @@ img.filters.push(new fabric.Image.filters.ColorMatrix({
     ]
 }));
 ```
+## Example
+- feel free to check the example implementation in this repository
 
