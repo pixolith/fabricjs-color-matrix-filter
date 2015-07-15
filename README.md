@@ -5,7 +5,7 @@
 - http://phoboslab.org/log/2013/11/fast-image-filters-with-webgl
 
 ## How-to use
-- add colourFilterMatrix.js to your fabric.js project and reference it in your html
+- add colorMatrixFilter.js to your fabric.js project and reference it in your html
 - add a new Color Matrix filter to the filter array of your fabric.js image
 ```
 img.filters.push(new fabric.Image.filters.ColorMatrix({
