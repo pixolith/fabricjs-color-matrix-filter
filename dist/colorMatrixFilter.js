@@ -1,3 +1,10 @@
+/*
+ * fabric.js Color Matrix Filter
+ * https://github.com/pixolith/fabricjs-color-matrix-filter
+ *
+ * Simon Kunz 15.07.2015 for pixolith
+ * Licensed under the MIT license.
+ */
 (function (global) {
 
     'use strict';
@@ -12,7 +19,12 @@
             var context = canvasEl.getContext('2d'),
                 imageData = context.getImageData(0, 0, canvasEl.width, canvasEl.height),
                 data = imageData.data,
-                iLen = data.length, i, r, g, b, a,
+                iLen = data.length,
+                i,
+                r,
+                g,
+                b,
+                a,
                 m = this.matrix;
 
             for (i = 0; i < iLen; i += 4) {
