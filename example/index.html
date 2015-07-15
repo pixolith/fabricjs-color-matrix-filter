@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Colour Filter Matrix</title>
+    <style type="text/css"></style>
+</head>
+<body>
+
+<label>Colour Matrix Filters:
+    <select id="filter-selector" name="filters">
+        <option selected="" value="add">select a filter</option>
+        <option value="vintagePinhole">Vintage Pinhole</option>
+        <option value="kodachrome">Kodachrome</option>
+        <option value="technicolor">Technicolor</option>
+    </select>
+</label>
+<canvas id="example"></canvas>
+<script defer src="../lib/fabric.min.js"></script>
+<script defer src="../filter/colorMatrixFilter.js"></script>
+<script defer src="example.js"></script>
+</body>
+</html>
