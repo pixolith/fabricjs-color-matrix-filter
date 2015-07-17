@@ -21,8 +21,6 @@
         canvas.add(img);
 
         filters.onchange = function () {
-            img.filters.length = 0;
-
             switch (filters.value) {
                 case 'vintagePinhole':
                     img.filters.splice(0, 1, new fabric.Image.filters.ColorMatrix({
@@ -55,6 +53,9 @@
                             0, 0, 0, 1, 0
                         ]
                     }));
+                    break;
+                default:
+                    img.filters.length = 0;
                     break;
             }
             img.applyFilters(canvas.renderAll.bind(canvas));

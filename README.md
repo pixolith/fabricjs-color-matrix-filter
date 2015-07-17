@@ -1,10 +1,17 @@
 ## Color Matrix Filter for fabric.js
 - use a custom Color Matrix as a fabric.js filter
 
+## What is this?
+This is a filter extension to enable you to use a Color Matrix (might be known from Adobe's Flash platform and AS3) as a filter in fabric.js.
+It uses the standard way filters are implemented in fabric.js and should work hassle free. If it doesn't feel free to report
+any issues.
+You can find a basic article describing the Color Matrix Filter and how it works here:
+http://www.webwasp.co.uk/tutorials/219/Color_Matrix_Filter.php
+
 ## Filter Example taken from:
 - http://phoboslab.org/log/2013/11/fast-image-filters-with-webgl
 
-## How-to use
+## How to use
 - add colorMatrixFilter.js to your fabric.js project and reference it in your html
 - add a new Color Matrix filter to the filter array of your fabric.js image
 ```
