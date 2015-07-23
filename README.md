@@ -62,14 +62,14 @@ And don't forgot to call the apply function and render after manipulating the fi
 img.applyFilters(canvas.renderAll.bind(canvas));
 ```
 
-You should be good to go! If not maybe the example Implementation below can help you.
+You should be good to go! If not maybe the example implementation below can help you.
 
 ## Example Implementation
 There is an example implementation in the example folder, just open the index file and check out how the filters look like
 when applied to the test image. The source for that is also provided in the example.js.
 
 ## Filter Examples have been taken from:
-- http://phoboslab.org/log/2013/11/fast-image-filters-with-webgl
+http://phoboslab.org/log/2013/11/fast-image-filters-with-webgl
 
 ## Usage
 Licensed under the MIT license.
