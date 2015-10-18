@@ -1,4 +1,4 @@
-## Color Matrix Filter for fabric.js
+# Color Matrix Filter for fabric.js
 Implementation of a Color Matrix transformation as a fabric.js filter for your fabric.js project.
 
 # Live Demo Page
