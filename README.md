@@ -1,6 +1,9 @@
 ## Color Matrix Filter for fabric.js
 Implementation of a Color Matrix transformation as a fabric.js filter for your fabric.js project.
 
+# Live Demo Page
+http://www.simonkunz.io/demos/fabric-js-color-filter-matrix/example/index.html
+
 ## What is this?
 This is a filter extension to enable you to use a Color Matrix (might be known from Adobes Flash platform and AS3) as a filter in fabric.js.
 It uses the standard way filters are implemented in fabric.js and should work hassle free. If it doesn't, feel free to report
@@ -63,9 +66,6 @@ img.applyFilters(canvas.renderAll.bind(canvas));
 ```
 
 You should be good to go! If not maybe the example implementation below can help you.
-
-# Demo Page
-http://www.simonkunz.io/demos/fabric-js-color-filter-matrix/example/index.html
 
 ## Example Implementation
 There is an example implementation in the example folder, just open the index file and check out how the filters look like
