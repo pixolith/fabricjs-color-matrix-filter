@@ -1,5 +1,5 @@
 {
-    "name": "fabric.js color matrix filter extension",
+    "name": "fabric-color-matrix-filter",
     "version": "0.0.1",
     "main": "dist/fabricjs-color-matrix-filter/dist/colorMatrixFilter.js",
     "ignore": [
@@ -7,6 +7,7 @@
         "spec",
         ".bowerrc",
         ".gitignore",
+        ".jscsrc",
         "bower.json",
         "gruntfile.js",
         "package.json",
