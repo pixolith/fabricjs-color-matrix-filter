@@ -1,11 +1,22 @@
 {
-  "name": "fabric.js color matrix filter extension",
-  "version": "0.0.1",
-  "authors": [
-    "Simon Kunz"
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "fabric": "~1.5.0"
-  }
+    "name": "fabric.js color matrix filter extension",
+    "version": "0.0.1",
+    "main": "dist/fabricjs-color-matrix-filter/dist/colorMatrixFilter.js",
+    "ignore": [
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md"
+    ],
+    "authors": [
+        "Simon Kunz"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "fabric": "~1.5.0"
+    }
 }
