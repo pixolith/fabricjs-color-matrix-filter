@@ -1,6 +1,6 @@
 {
     "name": "fabric-color-matrix-filter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "dist/fabricjs-color-matrix-filter/dist/colorMatrixFilter.js",
     "ignore": [
         "source",
