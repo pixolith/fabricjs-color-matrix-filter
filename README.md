@@ -1,6 +1,11 @@
 # Color Matrix Filter for fabric.js
 Implementation of a Color Matrix transformation as a fabric.js filter for your fabric.js project.
 
+# Install
+```
+bower install fabric-color-matrix-filter --save
+```
+
 # Live Demo Page
 http://pixolith.github.io/fabricjs-color-matrix-filter/example/index.html
 
