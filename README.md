@@ -2,7 +2,7 @@
 Implementation of a Color Matrix transformation as a fabric.js filter for your fabric.js project.
 
 # Live Demo Page
-http://www.simonkunz.io/demos/fabric-js-color-filter-matrix/example/index.html
+http://pixolith.github.io/fabricjs-color-matrix-filter/example/index.html
 
 ## What is this?
 This is a filter extension to enable you to use a Color Matrix (might be known from Adobes Flash platform and AS3) as a filter in fabric.js.
