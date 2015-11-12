@@ -11,7 +11,7 @@
 
     var fabric = global.fabric || ( global.fabric = {} );
 
-    fabric.Image.filters.ColorMatrix = fabric.util.createClass( fabric.Image.filters.BaseFilter, {
+    fabric.Image.filters.ColorMatrixFilter = fabric.util.createClass( fabric.Image.filters.BaseFilter, {
 
         type: 'ColorMatrixFilter',
 
@@ -40,11 +40,17 @@
             }
 
             context.putImageData( imageData, 0, 0 );
+        },
+
+        toObject: function() {
+            return fabric.util.object.extend(this.callSuper('toObject'), {
+                matrix: this.matrix
+            });
         }
     } );
 
-    fabric.Image.filters.ColorMatrix.fromObject = function( object ) {
-        return new fabric.Image.filters.ColorMatrix( object );
+    fabric.Image.filters.ColorMatrixFilter.fromObject = function( object ) {
+        return new fabric.Image.filters.ColorMatrixFilter( object );
     };
 
 } )( typeof exports !== 'undefined' ? exports : this );
