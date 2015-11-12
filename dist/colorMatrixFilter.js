@@ -13,7 +13,17 @@
 
     fabric.Image.filters.ColorMatrix = fabric.util.createClass( fabric.Image.filters.BaseFilter, {
 
-        type: 'ColorMatrixFilter',
+        type: 'ColorMatrix',
+
+        initialize: function( options ) {
+            options || ( options = {} );
+            this.matrix = options.matrix || [
+                    1, 0, 0, 0, 0,
+                    0, 1, 0, 0, 0,
+                    0, 0, 1, 0, 0,
+                    0, 0, 0, 1, 0
+                ];
+        },
 
         applyTo: function( canvasEl ) {
             var context = canvasEl.getContext( '2d' ),
@@ -40,6 +50,20 @@
             }
 
             context.putImageData( imageData, 0, 0 );
+        },
+
+        toJSON: function() {
+            return {
+                type: this.type,
+                matrix: this.matrix
+            };
+        },
+
+        toObject: function() {
+            return fabric.util.object.extend( this.callSuper( 'toObject' ), {
+                type: this.type,
+                matrix: this.matrix
+            } );
         }
     } );
 

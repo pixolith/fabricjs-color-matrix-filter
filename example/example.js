@@ -62,6 +62,7 @@
                     break;
             }
             img.applyFilters( canvas.renderAll.bind( canvas ) );
+            console.log( canvas.toJSON() );
         };
     } );
 
