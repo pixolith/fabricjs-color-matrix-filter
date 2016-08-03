@@ -1,6 +1,12 @@
 # Color Matrix Filter for fabric.js
 Implementation of a Color Matrix transformation as a fabric.js filter for your fabric.js project.
 
+# Deprecation Note
+Happy to announce that this now an official part of the fabric.js libary and will be included in the
+next release (and already is included in the current master). See: https://github.com/kangax/fabric.js/pull/3139.
+Therefore this repository will be deprecated and all functionality will be provided by the core of fabric.js itself.
+Functionality hasn't changed so your code will still work as expected.
+
 # Install
 ```
 bower install fabric-color-matrix-filter --save
