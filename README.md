@@ -1,4 +1,6 @@
 # Color Matrix Filter for fabric.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/pixolith/fabricjs-color-matrix-filter.svg)](https://greenkeeper.io/)
 Implementation of a Color Matrix transformation as a fabric.js filter for your fabric.js project.
 
 # Deprecation Note
